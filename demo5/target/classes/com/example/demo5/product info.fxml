@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.ProductinfoController">
+   <children>
+      <ImageView fitHeight="108.0" fitWidth="98.0" layoutX="57.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_24.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="372.0" fitWidth="429.0" layoutX="229.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_47.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buy1" layoutX="56.0" layoutY="162.0" mnemonicParsing="false" onAction="#buy1OnAction" text="BUY NOW" />
+      <Button fx:id="back" layoutX="57.0" layoutY="214.0" mnemonicParsing="false" onAction="#backonaction" prefHeight="38.0" prefWidth="99.0" text="BACK" />
+   </children>
+</AnchorPane>

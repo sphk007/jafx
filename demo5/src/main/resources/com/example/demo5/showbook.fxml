@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.showbookController">
+   <children>
+      <Button fx:id="subtle" layoutX="39.0" layoutY="162.0" mnemonicParsing="false" onAction="#subtleOnAction" prefHeight="38.0" prefWidth="85.0" text="BAGS" />
+      <Label layoutX="257.0" layoutY="6.0" text="PRODUCTS" textFill="WHITE">
+         <font>
+            <Font name="Gabriola" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="uglylove" layoutX="220.0" layoutY="167.0" mnemonicParsing="false" onAction="#uglyloveOnAction" prefHeight="38.0" prefWidth="95.0" text="MOBILES" />
+      <Button layoutX="33.0" layoutY="327.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="98.0" text="EARPHONES" />
+      <Button layoutX="390.0" layoutY="167.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="85.0" text="SHOES" />
+      <Button layoutX="225.0" layoutY="327.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="85.0" text="GAMES" />
+      <Button layoutX="385.0" layoutY="327.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="95.0" text="CAMERAS" />
+      <ImageView fitHeight="90.0" fitWidth="85.0" layoutX="39.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_23.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="74.0" layoutX="230.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_31.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="106.0" layoutX="380.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_37.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="95.0" layoutX="45.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_38.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="95.0" layoutX="220.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_39.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="127.0" layoutX="380.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_40.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="nextbookslide" layoutX="499.0" layoutY="353.0" mnemonicParsing="false" onAction="#showbookOnAction" prefHeight="38.0" prefWidth="98.0" style="-fx-background-color: #87CEEB;" text="next" />
+      <Button fx:id="backdashboard" layoutX="7.0" layoutY="14.0" mnemonicParsing="false" onAction="#backdashOnAction" prefHeight="25.0" prefWidth="85.0" style="-fx-background-color: #2B65EC;" text="Back to dashboard" textFill="WHITE">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
